@@ -174,6 +174,7 @@ struct dhcp_scan_state {
 #define DHCP_FQDN               0x51 /* 81: client asks to update DNS to map its FQDN to its new IP */
 //#define DHCP_PCODE            0x64 /* 100: RFC 4833. IEEE 1003.1 TZ string */
 //#define DHCP_TCODE            0x65 /* 101: RFC 4833. Reference to the TZ database string */
+#define DHCP_CAPTIVE_PORTAL	0x72
 //#define DHCP_DOMAIN_SEARCH    0x77 /* 119: RFC 3397. set of ASCIZ string, DNS-style compressed */
 //#define DHCP_SIP_SERVERS      0x78 /* 120: RFC 3361. flag byte, then: 0: domain names, 1: IP addrs */
 //#define DHCP_STATIC_ROUTES    0x79 /* 121: RFC 3442. (mask,ip,router) tuples */
